@@ -1,5 +1,7 @@
 import React from 'react';
 import Layout from '@theme/Layout';
+import { AwesomeButton } from 'react-awesome-button';
+import 'react-awesome-button/dist/styles.css';
 
 export default function Hello() {
     return (
@@ -15,6 +17,7 @@ export default function Hello() {
                 <p>
                     Just added a custom <code>ReactJS</code> component 🎉
                 </p>
+                <AwesomeButton type="primary">Look, awesome button here</AwesomeButton>
             </div>
         </Layout>
     );
